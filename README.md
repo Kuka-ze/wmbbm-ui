@@ -1,5 +1,3 @@
-## 半山街道（2019.6.25）
-
 ### 运行
 -  git clone "项目地址"
 -  npm install
@@ -16,31 +14,8 @@
 - 版本开发前自行在底部添加文档，文档内容包括（版本号，日期，预计工作量，风险点，功能点）
 
 
-### account
-<!-- username: wanglei
-password: 123456 -->
-
-
 ### 项目内域名与接口地址转换
 详见：`src/utils/util.js`
-
-
-### ftp
-<!-- type|name|password|ip
----|---|---|---
-预发 | dev-web/release | zhujia360!@# | 121.196.219.40
-测试 | dev-web/test | zhujia360!@# | 121.196.219.40
-正式 | street     | street123  | 121.196.219.40 -->
-
-
-### domain
-<!-- * dev `localhost:1234` wanglei 123456
-* test `http://dev-web.elive99.com/test/street`
-* release `http://dev-web.elive99.com/release/street`
-* produce `http://street.elive99.com/` -->
-
-### 接口文档
-<!-- Rap: `http://192.168.1.235:8077/org/group.action?plid=7` -->
 
 
 ### 项目架构
