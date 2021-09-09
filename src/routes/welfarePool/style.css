@@ -1,0 +1,136 @@
+.successIcon {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #3dba31;
+}
+
+.successTxt {
+    margin: 30px 30px 10px 30px;
+    font-size: 23px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.detailed {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex: 1;
+}
+
+.widthDiv {
+    width: 100%;
+}
+
+.overallImg {
+    width: 200px;
+    margin-right: 20px;
+    height: 200px;
+}
+
+.title1 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.just-bet {
+    /* justify-content: space-between; */
+}
+
+.listFlexWidth {
+    width: 500px;
+}
+
+.flex-align {
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-align1 {
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+}
+
+.box-bottom {
+    margin-bottom: 80px;
+}
+
+.btn-marin {
+    margin-right: 30px;
+    background: #008afa;
+    color: white;
+}
+
+.betweenAround {
+    justify-content: space-between;
+}
+.clows{
+    padding-right:40px ;
+}
+
+.clows div {
+    line-height: 30px;
+}
+
+.padding-righ {
+    /* margin-right: 100px; */
+}
+
+.overallStyle {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.icon-style {
+    font-size: 18px;
+    color: #008afa;
+}
+
+.poll-num {
+    display: flex;
+    align-items: center;
+}
+
+.type-width {
+    width: 240px;
+    min-width: 240px;
+    max-width: 240px;
+    text-indent: -2em;
+    margin-left: 2em;
+}
+
+.break-word {
+    word-wrap: break-word;
+    text-indent: -64px;
+    margin-left: 64px;
+}
+
+.userCount-style {
+    width: 140px;
+    min-width: 140px;
+    max-width: 140px;
+}

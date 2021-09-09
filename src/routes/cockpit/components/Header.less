@@ -1,0 +1,92 @@
+.data-headers{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  background: url(../images/header-bg.png) no-repeat;
+  background-size: 100% 100%;
+  height: .8rem;
+  .head-box{
+    padding: 0 .24rem;
+    color: #fff;
+    .head-l{
+      font-size: .16rem;
+      padding-top: .06rem;
+      .time{
+        font-size: .18rem;
+        .line{
+          font-size: .12rem;
+          padding:0 .12rem;
+          vertical-align: .02rem;
+        }
+      }
+      .rate-box{
+        padding-left: .3rem;
+      }
+      .rate{
+        font-size: .18rem;
+        padding: 0 .08rem;
+      }
+      .ant-rate-star:not(:last-child){
+          margin-right: .02rem;
+      }
+      .ant-rate-star-first, .ant-rate-star-second{
+          color: rgba(255, 216, 51, .5);
+      }
+      .ant-rate-star-half .ant-rate-star-first, .ant-rate-star-full .ant-rate-star-second{
+          color: #FFD833;
+      }
+    }
+    .head-c{
+      position: relative;
+      font-size:.38rem;
+      text-align: center;
+      font-family: FZZongYi-M05S;
+      color:#FFFFFF;
+      .title-name{
+        display: inline-block;
+        // width: 50%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        height: .8rem;
+        line-height: .8rem;
+        text-align: center;
+      }
+    }
+    .head-r{
+      text-align: right;
+      padding-top: .1rem;
+      .wmztc-box{
+        padding-right: .1rem;
+        .wmztc{
+          font-size: .16rem;
+          padding-right: .1rem;
+        }
+        .ant-select-sm .ant-select-selection--single{
+          box-shadow: none !important;
+          border: none !important;
+          background: url(../images/wmztc-bg.png) no-repeat !important;
+          background-size: 100% 96% !important;
+        }
+        .ant-select-selection__placeholder, .ant-select-search__field__placeholder{
+          color: #fff;
+        }
+      }
+      .right-link{
+        color: #fff;
+        font-size: .16rem;
+        margin-left: .10rem;
+      }
+      .icon{
+        width: .2rem;
+        height: .2rem;
+        margin-right: .10rem;
+        vertical-align: -.04rem;
+      }
+    }
+  }
+  
+}
+

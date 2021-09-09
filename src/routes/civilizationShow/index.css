@@ -1,0 +1,38 @@
+.cShow{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgb(255, 153, 0);
+    background-color: rgba(247, 231, 201, 0.555);
+}
+.cShow-descriptions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+}
+.cShow-descriptions-left{
+    flex:1
+}
+.cShow-descriptions-right{
+    width: 200px;
+}
+.img-size{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.video-mark{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.text-style{
+    letter-spacing: 3px;
+}

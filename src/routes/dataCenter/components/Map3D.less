@@ -1,0 +1,204 @@
+// /* 地图水波纹 */
+// .dot:before {
+//     content: ' ';
+//     position: absolute;
+//     z-index: 2;
+//     left: 0;
+//     top: 0;
+//     width: .06rem;
+//     height: .06rem;
+//     background-color: #ff4200;
+//     border-radius: 50%;
+//   }
+//   .dot:after {
+//     content: ' ';
+//     position: absolute;
+//     z-index: 1;
+//     width: .06rem;
+//     height: .06rem;
+//     background-color: #ff4200;
+//     border-radius: 50%;
+//     box-shadow: 0 0 .06rem rgba(0, 0, 0, 0.3) inset;
+//     -webkit-animation-name: 'ripple'; /*动画属性名，也就是我们前面keyframes定义的动画名*/
+//     -webkit-animation-duration: 2s; /*动画持续时间*/
+//     -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+//     -webkit-animation-delay: 0s; /*动画延迟时间*/
+//     -webkit-animation-iteration-count: infinite; /*定义循环资料，infinite为无限次*/
+//     -webkit-animation-direction: normal; /*定义动画方式*/
+//   }
+//   @keyframes ripple {
+//     0% {
+//       left: .03rem;
+//       top: .03rem;
+//       opcity: 75;
+//       width: 0;
+//       height: 0;
+//     }
+//     100% {
+//       left: -.12rem;
+//       top: -.12rem;
+//       opacity: 0;
+//       width: .30rem;
+//       height: .30rem;
+//     }
+//   }
+//   .line {
+//     width: .01rem;
+//     height: 0;
+//     top: 0;
+//     margin-left: .02rem;
+//     background: linear-gradient(rgba(25, 108, 112, 0), #ff3a3d);
+//     -webkit-animation-name: 'line'; /*动画属性名，也就是我们前面keyframes定义的动画名*/
+//     -webkit-animation-duration: 5s; /*动画持续时间*/
+//     -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+//     -webkit-animation-delay: 0s; /*动画延迟时间*/
+//     -webkit-animation-iteration-count: infinite; /*定义循环资料，infinite为无限次*/
+//     -webkit-animation-direction: normal; /*定义动画方式*/
+//   }
+//   @keyframes line {
+//     0% {
+//       height: 0;
+//       top: 0;
+//     }
+//     100% {
+//       height: 1.00rem;
+//       top: -1.00rem;
+//     }
+//   }
+//   .marker {
+//     opacity: 0;
+//     -webkit-animation-name: 'marker'; /*动画属性名，也就是我们前面keyframes定义的动画名*/
+//     -webkit-animation-duration: 5s; /*动画持续时间*/
+//     -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+//     -webkit-animation-delay: 0s; /*动画延迟时间*/
+//     -webkit-animation-iteration-count: infinite; /*定义循环资料，infinite为无限次*/
+//     -webkit-animation-direction: normal; /*定义动画方式*/
+//   }
+//   @keyframes marker {
+//     0% {
+//       opacity: 0;
+//     }
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+
+
+//   .marker1 {
+//     opacity: 0;
+//     -webkit-animation-name: 'marker1'; /*动画属性名，也就是我们前面keyframes定义的动画名*/
+//     -webkit-animation-duration: 9s; /*动画持续时间*/
+//     -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+//     -webkit-animation-delay: 0s; /*动画延迟时间*/
+//     -webkit-animation-iteration-count: infinite; /*定义循环资料，infinite为无限次*/
+//     -webkit-animation-direction: normal; /*定义动画方式*/
+//   }
+//   @keyframes marker1 {
+//     0% {
+//       opacity: 0;
+//     }
+//     33.33% {
+//       opacity: 1;
+//     }
+//     66.660% {
+//       opacity: 0;
+//     }
+//     100% {
+//       opacity: 0;
+//     }
+//   }
+  
+//   .marker2 {
+//     opacity: 0;
+//     -webkit-animation-name: 'marker2'; /*动画属性名，也就是我们前面keyframes定义的动画名*/
+//     -webkit-animation-duration: 9s; /*动画持续时间*/
+//     -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+//     -webkit-animation-delay: 0s; /*动画延迟时间*/
+//     -webkit-animation-iteration-count: infinite; /*定义循环资料，infinite为无限次*/
+//     -webkit-animation-direction: normal; /*定义动画方式*/
+//   }
+//   @keyframes marker2 {
+//     0% {
+//       opacity: 0;
+//     }
+//     33.33% {
+//       opacity: 0;
+//     }
+//     66.660% {
+//       opacity: 1;
+//     }
+//     100% {
+//       opacity: 0;
+//     }
+//   }
+  
+//   .marker3 {
+//     opacity: 0;
+//     -webkit-animation-name: 'marker3'; /*动画属性名，也就是我们前面keyframes定义的动画名*/
+//     -webkit-animation-duration: 9s; /*动画持续时间*/
+//     -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+//     -webkit-animation-delay: 0s; /*动画延迟时间*/
+//     -webkit-animation-iteration-count: infinite; /*定义循环资料，infinite为无限次*/
+//     -webkit-animation-direction: normal; /*定义动画方式*/
+//   }
+//   @keyframes marker3 {
+//     0% {
+//       opacity: 0;
+//     }
+//     33.33% {
+//       opacity: 0;
+//     }
+//     66.660% {
+//       opacity: 0;
+//     }
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+  
+//   .amap-luopan, .amap-luopan-bg{
+//     opacity: .3;
+//   }
+  
+// .firetip{
+//   width: 50px;
+//   height: 50px;
+//   background: rgba(8, 113, 188);
+//   box-shadow: 0px 0px 45px 5px rgba(8, 113, 188, 0.5);
+//   border-radius: 25px;
+//   opacity: 0;
+//   animation: flameoff 3s ease-in-out 0.09s normal;
+// }
+// .firetip1{
+//   background: rgba(8, 113, 188);
+//   box-shadow: 0px 0px 45px 5px rgba(8, 113, 188, 0.5);
+//   animation: flameoff 3s ease-in-out 0.09s normal;
+// }
+// .firetip2{
+//   background: rgba(88, 10, 107);
+//   box-shadow: 0px 0px 45px 5px rgba(88, 10, 107, 0.5);
+//   animation: flameoff 4s ease-in-out 1.71s normal;
+// }
+// .num_0{
+//   animation: flameoff 4s ease-in-out 1.71s normal;
+// }
+// .num_1{
+//   animation: flameoff 3s ease-in-out 0.09s normal;
+// }
+// .num_2{
+//   animation: flameoff 3s ease-in-out 1s normal;
+// }
+
+// @keyframes flameoff {
+//   0% {
+//     opacity: 0;
+//     transform: translateY(0px) scale(0.7, 0.7);
+//   }
+//   20% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: translateY(-100px) scale(0.1, 0.1);
+//   }
+// }

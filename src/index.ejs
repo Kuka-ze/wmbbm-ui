@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文明大脑</title>
+  <link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">  
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=52720888835360484f4ead4d921af5e0&plugin=AMap.Geocoder"></script>
+  <script type="text/javascript" src="ueditor/ueditor.config.js"></script>
+  <script type="text/javascript" src="ueditor/ueditor.all.js"></script>
+  <script src="https://g.alicdn.com/dingding/dinglogin/0.0.5/ddLogin.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    function calculate () {
+      var html = document.getElementsByTagName('html')[0];
+      var clientHeight = document.body.clientHeight;
+      var fontSize = (clientHeight * 100) / 1080;
+      html.style.fontSize = fontSize + 'px';
+    }
+    window.onload = function(){
+      calculate();
+      window.addEventListener('resize', calculate);
+    };
+  </script>
+</body>
+</html>

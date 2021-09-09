@@ -1,0 +1,568 @@
+.DataCenterMap {
+  .event-nav {
+    .event-list {
+      margin-left: .24rem;
+      font-size: .16rem;
+      cursor: pointer;
+      position: relative;
+      padding-left: .28rem;
+      font-family: PingFang SC;
+      font-weight: 600;
+      color: #FFFFFF;
+    }
+
+    .event-icon {
+      position: absolute;
+      left: .0rem;
+      top: .02rem;
+      background: url(../images/radio_1.png) no-repeat;
+      background-size: 100% 100%;
+      width: .2rem;
+      height: .2rem;
+    }
+
+    .actives .event-icon {
+      background: url(../images/radio_2.png) no-repeat;
+      background-size: 100% 100%;
+      width: .2rem;
+      height: .2rem;
+    }
+  }
+
+  .update-time {
+    text-align: right;
+    font-size: .16rem;
+    font-family: Arial;
+    color: #FFFFFF;
+    opacity: 0.82;
+    padding-top: .09rem;
+  }
+
+  .rate-box {
+    padding: .16rem 0;
+  }
+
+  .rate {
+    font-size: .26rem;
+    line-height: .26rem;
+    border-radius: .3rem;
+    padding: .05rem .23rem .05rem;
+    background: rgba(56, 56, 56, .47);
+  }
+
+  .ant-rate-star:not(:last-child) {
+    margin-right: .1rem;
+  }
+
+  .ant-rate-star-first,
+  .ant-rate-star-second {
+    color: rgba(255, 216, 51, .5);
+  }
+
+  .ant-rate-star-half .ant-rate-star-first,
+  .ant-rate-star-full .ant-rate-star-second {
+    color: rgba(255, 216, 51, 1);
+  }
+
+  .civilization-time-box {
+    padding: .2rem .2rem 0;
+
+    .name {
+      font-size: .17rem;
+      font-family: PingFang SC;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .volunteer-logo {
+      padding-right: .08rem;
+    }
+
+    .civilization-time {
+      font-size: .16rem;
+      font-family: PingFang SC;
+      color: #7EB6FF;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .info-box {
+    padding: .13rem .08rem;
+
+    .info-list {
+      font-size: .18rem;
+      font-family: PingFang SC;
+      height: .5rem;
+      line-height: .5rem;
+      padding: 0 4%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .info-list:nth-child(odd) {
+      background-color: rgba(36, 62, 137, .4);
+    }
+
+    .point {
+      width: .10rem;
+      height: .10rem;
+      background: #8B6FFF;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 6%;
+    }
+
+    .point-1 {
+      background-color: rgba(139, 111, 255, 1);
+    }
+
+    .point-2 {
+      background-color: rgba(39, 253, 209, 1);
+    }
+
+    .point-3 {
+      background-color: rgba(139, 111, 255, 1);
+    }
+
+    .point-4 {
+      background-color: rgba(68, 116, 247, 1);
+    }
+
+    .point-5 {
+      background-color: rgba(39, 253, 209, 1);
+    }
+
+    .point-6 {
+      background-color: rgba(139, 111, 255, 1);
+    }
+  }
+
+
+
+  .amap-info-content {
+    background: none;
+    border: none;
+
+    .amap-info-close {
+      top: 0.2rem !important;
+      right: 0.3rem !important;
+    }
+
+    .infoWindowContent {
+      background-image: url('../images/signBg.png') !important;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 2.53rem;
+      height: 2rem;
+      color: #fff;
+      padding: 0.2rem 0.1rem 0 0.3rem;
+      margin-left: 1.965rem;
+
+
+      .text {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 0.14rem;
+        font-weight: 400;
+        line-height: 0.2rem;
+      }
+
+      .title {
+        font-weight: 600;
+        font-size: 0.16rem;
+        line-height: 0.22rem;
+      }
+    }
+
+  }
+
+  .bg-class {
+    background: #041134;
+    width: 5rem;
+    height: 0.7rem;
+    color: #fff;
+    padding: 0.15rem;
+
+    .color {
+      color: #8DABFF;
+      font-size: 0.12rem;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .title {
+      display: flex;
+    }
+
+    .address {
+      font-size: 0.14rem;
+      font-weight: 400;
+      line-height: 0.19rem;
+      color: #FFFFFF;
+      opacity: 1;
+      padding: 0.05rem;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+
+    }
+  }
+
+  .amap-info-contentContainer:hover .amap-info-outer {
+    box-shadow: none !important;
+  }
+
+  .dot {
+    width: 2.5rem;
+    height: 2rem;
+    background: url('../images/signBg.png') no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+  }
+
+
+  .marker1 {
+    animation: 60s opacity1 0s infinite;
+  }
+
+  .marker2 {
+    animation: 60s opacity1 0s infinite;
+  }
+
+  .marker3 {
+    animation: 60s opacity1 0s infinite;
+  }
+
+  .marker4 {
+    animation: 60s opacity2 0s infinite;
+  }
+
+  .marker5 {
+    animation: 60s opacity2 0s infinite;
+  }
+
+  .marker6 {
+    animation: 60s opacity2 0s infinite;
+  }
+  .marker7 {
+    animation: 60s opacity3 0s infinite;
+  }
+
+  .marker8 {
+    animation: 60s opacity3 0s infinite;
+  }
+
+  .marker9 {
+    animation: 60s opacity3 0s infinite;
+  }
+
+  .marker10 {
+    animation: 60s opacity4 0s infinite;
+  }
+
+  .marker11 {
+    animation: 60s opacity4 0s infinite;
+  }
+
+  .marker12 {
+    animation: 60s opacity4 0s infinite;
+  }
+  .marker13 {
+    animation: 60s opacity5 0s infinite;
+  }
+
+  .marker14 {
+    animation: 60s opacity5 0s infinite;
+  }
+
+  .marker15 {
+    animation: 60s opacity5 0s infinite;
+  }
+
+  .marker16{
+    animation: 60s opacity6 0s infinite;
+  }
+
+  .marker17 {
+    animation: 60s opacity6 0s infinite;
+  }
+
+  .marker18 {
+    animation: 60s opacity6 0s infinite;
+  }
+
+  .marker19{
+    animation: 60s opacity7 0s infinite;
+  }
+
+  .marker20 {
+    animation: 60s opacity7 0s infinite;
+  }
+
+  .marker21 {
+    animation: 60s opacity7 0s infinite;
+  }
+
+  .marker22{
+    animation: 60s opacity8 0s infinite;
+  }
+
+  .marker23 {
+    animation: 60s opacity8 0s infinite;
+  }
+
+  .marker24 {
+    animation: 60s opacity8 0s infinite;
+  }
+
+  .marker25{
+    animation: 60s opacity9 0s infinite;
+  }
+
+  .marker26 {
+    animation: 60s opacity9 0s infinite;
+  }
+
+  .marker27 {
+    animation: 60s opacity9 0s infinite;
+  }
+
+  .marker28{
+    animation: 60s opacity10 0s infinite;
+  }
+
+  .marker29 {
+    animation: 60s opacity10 0s infinite;
+  }
+
+  .marker30 {
+    animation: 60s opacity10 0s infinite;
+  }
+
+
+
+  
+
+
+
+
+  @keyframes opacity1 {
+    0% {
+      opacity: 0;
+    }
+
+    5% {
+      opacity: 1;
+    }
+
+    10% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity2 {
+    0% {
+      opacity: 0;
+    }
+
+    10% {
+      opacity: 0;
+    }
+
+    15% {
+      opacity: 1;
+    }
+
+    20% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity3 {
+    0% {
+      opacity: 0;
+    }
+
+    20% {
+      opacity: 0;
+    }
+
+    25% {
+      opacity: 1;
+    }
+
+    30% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity4 {
+    0% {
+      opacity: 0;
+    }
+
+    30% {
+      opacity: 0;
+    }
+
+    35% {
+      opacity: 1;
+    }
+
+    40% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity5 {
+    0% {
+      opacity: 0;
+    }
+
+    40% {
+      opacity: 0;
+    }
+
+    45% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity6 {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    55% {
+      opacity: 1;
+    }
+
+    60% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity7 {
+    0% {
+      opacity: 0;
+    }
+
+    60% {
+      opacity: 0;
+    }
+
+    65% {
+      opacity: 1;
+    }
+
+    70% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity8 {
+    0% {
+      opacity: 0;
+    }
+
+    70% {
+      opacity: 0;
+    }
+
+    75% {
+      opacity: 1;
+    }
+
+    80% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity9 {
+    0% {
+      opacity: 0;
+    }
+
+    80% {
+      opacity: 0;
+    }
+
+    85% {
+      opacity: 1;
+    }
+
+    90% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes opacity10 {
+    0% {
+      opacity: 0;
+    }
+
+    90% {
+      opacity: 0;
+    }
+
+    95% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+}

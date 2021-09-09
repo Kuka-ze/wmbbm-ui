@@ -1,0 +1,189 @@
+.pilotApplicationEdit .status {
+    padding-right: 200px;
+    font-size: 12px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+}
+
+.pilotApplicationEdit .title-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pilotApplicationEdit .status-circle {
+    width: 5px;
+    height: 5px;
+    background: #bfbfbf;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.pilotApplicationEdit .circle2 {
+    background: #bfbfbf;
+}
+
+.pilotApplicationEdit .circle3 {
+    background: #f6c412;
+}
+
+.pilotApplicationEdit .circle4 {
+    background: #bfbfbf;
+}
+
+.pilotApplicationEdit .circle5 {
+    background: #00f025;
+}
+
+.pilotApplicationEdit .hsitory {
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border: 1px solid #f00;
+    color: #f00;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.pilotApplicationEdit .flex {
+    display: flex;
+}
+
+.pilotApplicationEdit .align-center {
+    align-items: center;
+}
+
+.pilotApplicationEdit .pass {
+    width: 80px;
+    height: 40px;
+}
+
+.pilotApplicationEdit .reject {
+    width: 200px;
+    height: 40px;
+}
+
+.pilotApplicationEdit .add-content .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pilotApplicationEdit .downliad-icon {
+    cursor: pointer;
+    margin-left: 200px;
+    color: #008afa;
+    font-size: 15px;
+}
+
+.pilotApplicationEdit .downliad-icon-detail {
+    cursor: pointer;
+    margin-left: 20px;
+    color: #008afa;
+    font-size: 15px;
+}
+
+.pilotApplicationEdit .font-input {
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.pilotApplicationEdit .input-value {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.pilotApplicationEdit .begin {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background: #008afa;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 50px;
+}
+
+.pilotApplicationEdit .status-circle-reject {
+    background: #f6c412;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.pilotApplicationEdit .history div {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.pilotApplicationEdit .history div span {
+    margin-left: 10px;
+}
+
+.pilotApplicationEdit .evaluaText {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, .65);
+    line-height: 40px;
+}
+
+.pilotApplicationEdit .evaluaText2 {
+    margin: 10px 0 36px;
+    font-size: 12px;
+    color: #333;
+    line-height: 40px;
+}
+
+.evaluaText .ant-col-3,
+.evaluaText2 .ant-col-3 {
+    color: rgba(0, 0, 0, .85);
+    margin-right: 5px;
+    text-align: right;
+    position: relative;
+}
+
+.pilotApplicationEdit .cur-point {
+    cursor: pointer;
+}
+
+
+.pilotApplicationEdit .upload-dragger-div .ant-upload-list-item-info span {
+    font-size: 15px;
+}
+
+.pilotApplicationEdit .upload-dragger-div .ant-upload-list-item-info span i {
+    font-size: 15px;
+}
+
+.pilotApplicationEdit .rejectJy {
+    display: flex;
+    /* width: 900px; */
+}
+
+.pilotApplicationEdit .rejectLevel {
+    width: auto !important;
+    height: auto;
+    color: #000000;
+}
+
+.pilotApplicationEdit .rejectNote {
+    flex: 1;
+    margin-left: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.pilotApplicationEdit .ant-tabs-nav {
+    width: 150px;
+}
+
+.pingjia-item-content{
+    word-wrap: break-word;
+    word-break: break-all;
+}

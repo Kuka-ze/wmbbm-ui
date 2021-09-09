@@ -1,0 +1,206 @@
+.StreetCenter{
+  width: 100%;
+  .base-data-list{
+      text-align: center;
+      width: 24%;
+      .base-data-main{
+          padding: 5% 0;
+          background:rgba(23,45,144,0.8);
+      }
+      .base-data-icon{
+          width: .5rem;
+      }
+      .base-data-right{
+        text-align: center;
+        width: 100%;
+      }
+      .name{
+            font-family:PingFang SC;
+            font-weight:400;
+            color:rgba(39,196,253,1);
+            font-size: .16rem;
+      }
+      .num-box{
+          font-size: .14rem;
+      }
+      .num{
+          font-size:.32rem;
+          font-family:Arial;
+          font-weight:bold;
+          color:rgba(255,245,85,1);
+          line-height: .40rem;
+      }
+  }
+  .arrow{
+      width: .2rem;
+      margin-left: .06rem;
+      cursor: pointer;
+  }
+
+}
+.center-map{
+    // margin-top: 8px;
+    height:88%;
+    width:100%;
+    // background: url('./../images/map-bg.png') no-repeat center;
+    // background-size: contain;
+    position: relative;
+    .active-num{
+        position: absolute;
+        left: 8px;
+        top: 0;
+        width: 25%;
+    }
+    .active-tit{
+        font-size:.24rem;
+        font-family:Charlemagne Std;
+        font-weight:bold;
+        line-height:.5rem;
+        color:rgba(128,222,255,1);
+    }
+    .num-box{
+        padding: 0.08rem 0.16px 0;
+        text-align: center;
+        margin-bottom: 12px;
+        background:rgba(23,45,144,0.25);
+    }
+    .num-name{
+        font-size:.14rem;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:rgba(39,196,253,1);
+    }
+    .num-value{
+        font-size:.14rem;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:#fff;
+    }
+    .num-value span{
+        font-size:.32rem;
+        font-family:Arial;
+        font-weight:bold;
+        color:#fff;
+    }
+
+}
+.street-info{
+    width: 25%;
+    background:rgba(0,0,0,0.45);
+    padding: 0.16rem;
+    font-size:.16rem;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(255, 255, 255, 0.5);
+    line-height: .3rem;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    opacity: 1;
+    z-index: 1;
+}
+.street-info span{
+    color:rgba(39, 196, 253, 1)
+}
+.street-name{
+    // text-align: center;
+    font-size:.18rem;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    line-height: .4rem;
+    color:rgba(255,255,255,1);
+}
+.mess-pisition{
+    position: absolute;
+    width: 30%;
+    background: rgba(0,0,0,0.45);
+    padding: 8px 16px;
+    opacity: 0;
+}
+.showAc{
+    opacity: 1;
+    transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+}
+.hideAc{
+    opacity: 0;
+    transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+}
+
+// .showInfo{
+//     opacity: 1;
+//     transition: opacity 0s;
+//     -webkit-transition: opacity 0s;
+// }
+// .hideInfo{
+//     opacity: 0;
+//     transition: opacity 5s;
+//     -webkit-transition: opacity 5s;
+// }
+.location0{
+    top:20%;
+    left: 18%;
+}
+.location1{
+    top:37%;
+    left: 68%;
+}
+.location2{
+    top:38%;
+    left: 21%;
+}
+.location3{
+    top:48%;
+    left: 67%;
+}
+.location4{
+    top:49%;
+    left: 4%;
+}
+.location5{
+    top:70%;
+    left: 60%;
+}
+.location6{
+    top:10%;
+    left: 53%;
+}
+.location7{
+    top:86%;
+    left: 15%;
+}
+.location8{
+    top:60%;
+    left: 53%;
+}
+.location9{
+    top:71%;
+    left: 2%;
+}
+
+/*star*/
+.ant-rate-star:not(:last-child){
+    margin-right: 2px;
+}
+
+.index-color-box{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 1;
+    .color-list{
+        .color{
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #d9d9d9;
+            border-radius: 2px;
+            margin-right: 6px;
+        }
+        .color-4{background-color: #d9d9d9;}
+        .color-3{background-color: #FF802C;}
+        .color-2{background-color: #FE5037;}
+        .color-1{background-color: #FFC400;}
+    }
+}

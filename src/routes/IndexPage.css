@@ -1,0 +1,158 @@
+@import '../assets/swiper-bundle.min.css';
+.swiper-button-next{
+  right:0;
+}
+.swiper-button-prev{
+  left:0
+}
+/* .question .info{
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.question .info .name{
+  color:#FF9933;
+}
+.question .link{
+  padding-left: 6px;
+  color: #2697EB;
+} */
+.title{
+  padding: 16px 0;
+  line-height:32px;
+}
+.title .title-text{
+  font-size:18px;
+}
+.title .right{
+  float: right;
+  margin-left:16px;
+}
+.home-box .ant-col{
+  margin-bottom:16px;
+}
+.gutter-box{
+  border: 1px solid #e1e2e3;
+  padding: 12px 16px;
+  position: relative;
+}
+.gutter-box p{
+  color:#666;
+  font-size:14px;
+}
+.gutter-box h1{
+  color:#333;
+  font-size:24px;
+  margin-bottom:0;
+}
+.gutter-box i{
+  position: absolute;
+  top:16px;
+  right:16px;
+}
+.home-item{
+  background:#fff;
+  margin-top:16px;
+  padding: 0 16px;
+}
+.home-item .ant-col-6{
+  margin-bottom: 12px;
+}
+/*拉新概况*/
+.pieItem{
+  position: relative;
+  padding: 20px;
+  font-size: 14px;
+  color:#757575;
+}
+.pieItem h4{
+  font-size: 16px;
+  color:#666;
+}
+.pieItem h3{
+  font-size:22px;
+  color:#333;
+}
+.pieItem .echarts-for-react{
+  position: absolute;
+  right:0;
+  bottom:0;
+}
+.active-pie{
+  border-top:2px solid #1890ff;
+}
+.child-tabs .ant-tabs-bar{
+  border:0;
+}
+.child-tabs .ant-tabs-tab{
+  padding: 2px 8px;
+  border:1px solid #ddd;
+  border-radius:4px;
+  margin-right:16px;
+}
+.child-tabs .ant-tabs-tab-active{
+  border-color:#1890ff;
+}
+.child-tabs .ant-tabs-ink-bar{
+  height:1px;
+  bottom:-1px;
+  background:transparent;
+  position: relative;
+}
+.gutter-box i{
+  z-index:9
+}
+.ant-tabs-bar{
+  display:inherit;
+}
+/* .circle-line{
+  display: inline-block;
+  width:32px;
+  height:16px;
+  background:url('../assets/circle-line.png') no-repeat center;
+  background-size:80%;
+  margin-right: 4px;
+} */
+.circle-line{
+  position: relative;
+  display: inline-block;
+  width:12px;
+  height:13px;
+  border:1px solid #1890ff;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top:1px;
+}
+.circle-line::before{
+  content:'';
+  display: block;
+  position: absolute;
+  width:6px;
+  height:1px;
+  background:#1890ff;
+  left:-6px;
+  top:50%;
+}
+.circle-line::after{
+  content:'';
+  display: block;
+  position: absolute;
+  width:6px;
+  height:1px;
+  background:#1890ff;
+  right:-7px;
+  top:50%;
+}
+.line-in-title{
+  font-size:13px;
+  color:#444;
+  line-height:16px;
+  text-align: center;
+  margin-bottom:0;
+  position: relative;
+  top:20px;
+}
+
+.ant-table-row td p{
+  margin:0;
+}
+

@@ -1,0 +1,59 @@
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px;
+}
+#components-layout-demo-side .ant-layout-sider-collapsed .anticon {
+    font-size: 16px;
+    margin-left: 8px;
+}
+#components-layout-demo-side .ant-layout-sider-collapsed .nav-text {
+    display: none;
+}
+
+#components-layout-demo-side .ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+    display: none;
+}
+.ant-layout-header{
+    background-color: #fff !important;
+    border-bottom: 1px solid #e7e7e7;
+}
+.top{
+    background-color: #4696e7;
+    height: 80px;
+}
+.content {
+    padding: 0 30px;
+    background-color: #f2f4f5;
+    min-height: 500px;
+    overflow: auto;
+}
+.fontLogo{
+  font-size: 24px;
+  color: #6070bf;
+}
+.headerBg{
+  background: #fff;
+}
+.userInfo{
+  float: right;
+  width: 180px;
+  text-align: right;
+}
+footer{
+  text-align: center;
+  color:#999;
+  margin-top:15px;
+}
+footer p{
+	padding:6px 0;
+}
+
+.icon-free{
+  display: inline-block;
+  width:50px;
+  height:16px;
+  background:url('../../assets/free.png') no-repeat center;
+  background-size: 85%;
+}
